@@ -1,5 +1,12 @@
 # CurrencyTelegramSpringBot
-<img src="путь к файлу" alt="альтернативный текст">
+![1java](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/2f3d5b1c-9315-4dd0-a339-e3dc94668f96)
+![1spring](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/83728f97-5cc0-4dcd-b417-3c8e84cf4a66)
+![1postgres](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/e4ed768f-0743-4535-a6f1-60cb13943d8d)
+![1docker](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/a7f82e65-f88f-4aef-8c0f-832d074533f2)
+![1log4j](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/b2a49270-2455-4ddf-99b7-5dcd59335d15)
+![1telegram](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/5a8dff88-bb00-4ea2-9dbd-66f4d2521925)
+![1Снимок PrivatBank API](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/3562c5ca-52f5-4a25-8b18-ffc2b138bb9a)
+
 ---
 <table>
   <tr>
