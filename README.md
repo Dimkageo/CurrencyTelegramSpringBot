@@ -1,5 +1,5 @@
-#CurrencyTelegramSpringBot
-
+# CurrencyTelegramSpringBot
+<img src="путь к файлу" alt="альтернативный текст">
 ---
 <table>
   <tr>
