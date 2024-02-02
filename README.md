@@ -5,8 +5,7 @@
 ![1docker](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/a7f82e65-f88f-4aef-8c0f-832d074533f2)
 ![1log4j](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/b2a49270-2455-4ddf-99b7-5dcd59335d15)
 ![1telegram](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/5a8dff88-bb00-4ea2-9dbd-66f4d2521925)
-![1Снимок PrivatBank API](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/3562c5ca-52f5-4a25-8b18-ffc2b138bb9a)
-
+![Снимок PrivatBank API](https://github.com/Dimkageo/CurrencyTelegramSpringBot/assets/132165836/d097c083-c939-4aab-a44d-ea3068999cd7)
 ---
 <table>
   <tr>
