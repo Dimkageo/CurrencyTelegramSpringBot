@@ -18,7 +18,6 @@ The project is a Telegram bot developed using the Spring Boot framework and inco
    - A REST controller is implemented, allowing users to obtain a list of subscribers receiving updates.
 4. **Logging:**
    - Logging is implemented using SLF4J to capture events and identify issues.
-     
     </td>
     <td>
 
