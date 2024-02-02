@@ -1,0 +1,37 @@
+<configuration>
+
+    <!-- Визначення змінних -->
+    <property name="HOME_LOG" value="/var/log/currencyspringbot/tg-bot/app.log"/>
+
+    <!-- Апендер для файлового логування -->
+    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${HOME_LOG}</file>
+
+        <!-- Політика ротації файлів -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>/var/log/currencyspringbot/tg-bot/app.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <!-- Кожен архівований файл, розмір не більше 10MB -->
+            <maxFileSize>10MB</maxFileSize>
+            <!-- Загальний обсяг всіх архівованих файлів, якщо загальний обсяг > 1GB, старі файли будуть видалені -->
+            <totalSizeCap>1GB</totalSizeCap>
+            <!-- Зберігати файли протягом 60 днів -->
+            <maxHistory>60</maxHistory>
+        </rollingPolicy>
+
+        <!-- Форматування логів -->
+        <encoder>
+            <pattern>%d %p %c{1} [%t] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Конфігурація логера для конкретного пакету -->
+    <logger name="org.example.currencyspringbot" level="debug" additivity="false">
+        <appender-ref ref="FILE-ROLLING"/>
+    </logger>
+
+    <!-- Кореневий логер з рівнем ERROR -->
+    <root level="error">
+        <appender-ref ref="FILE-ROLLING"/>
+    </root>
+
+</configuration>

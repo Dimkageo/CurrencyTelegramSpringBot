@@ -1,0 +1,10 @@
+services:
+  db_pg_tg_15:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: tg
+      POSTGRES_USER: tg_user
+      POSTGRES_PASSWORD: tg_pas
+    ports:
+      - 5433:5432
+
