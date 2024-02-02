@@ -29,14 +29,14 @@ public class CurrencyRertrievalPrivatService implements CurrencyRertrievalServic
         try {
             String response = Jsoup.connect(url).ignoreContentType(true).get().body().text();
             List<CurrencyRatePrivateResponseDto> responseDtos = convertResponseToList(response);
-//            System.out.println(responseDtos);
+
             // робимо красиво
             List<CurrencyRateDto> list = new ArrayList<>();
             for (CurrencyRatePrivateResponseDto dto : responseDtos) {
                 CurrencyRateDto currencyRateDto = new CurrencyRateDto(dto.getCcy(), dto.getBuy(), dto.getSale());
                 list.add(currencyRateDto);
             }
-//            System.out.println("---------list = " + list);
+
             return list;
         } catch (IOException e) {
             throw new RuntimeException(e);
