@@ -1,7 +1,6 @@
 <table>
   <tr>
     <td>
-
 **Project Name:** Currency Telegram Bot with Spring, Docker Compose, and PostgreSQL
 
 **Description:**
